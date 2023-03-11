@@ -1,0 +1,32 @@
+Senegal;Aliou Cissé
+Holanda;Louis van Gall
+Catar;Félix Sánchez
+Equador;Gustavo Alfaro
+Argentina;Lionel Scaloni
+Arabia Saudita;Hervé Renard
+Mexico;Gerardo Martino
+Polonia;Czeslaw Michniewicz
+Inglaterra;Gareth Southgate
+Ira;Carlos Queiroz
+Estados Unidos;Gregg Berthalter
+Pais de Gales;Rob Page
+Dinamarca;Kasper Hjulmand
+Tunisia;Jalel Kadri
+Franca;Didier Deschamps
+Australia;Graham Arnold
+Alemanha;Hansi Flick
+Japao;Hajime Moriyasu
+Costa Rica;Luis Fernando Suárez
+Espanha;Luis Enrique
+Suica;Murat Yakin
+Camaroes;Rigobert Song
+Brasil;Tite
+Servia;Dragan Stojkovic
+Marrocos;Walid Regragui
+Croacia;Slatko Dalic
+Belgica;Roberto Martínez
+Canada;John Herdman
+Uruguai;Diego Alonso
+Coreia do Sul;Paulo Bento
+Portugal;Fernando Santos
+Gana;Otto Addo

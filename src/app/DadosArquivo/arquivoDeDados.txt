@@ -1,0 +1,32 @@
+Senegal;A
+Holanda;A
+Catar;A
+Equador;A
+Argentina;C
+Arabia Saudita;C
+Mexico;C
+Polonia;C
+Inglaterra;B
+Ira;B
+Estados Unidos;B
+Pais de Gales;B
+Dinamarca;D
+Tunisia;D
+Franca;D
+Australia;D
+Alemanha;E
+Japao;E
+Costa Rica;E
+Espanha;E
+Suica;G
+Camaroes;G
+Brasil;G
+Servia;G
+Marrocos;F
+Croacia;F
+Belgica;F
+Canada;F
+Uruguai;H
+Coreia do Sul;H
+Portugal;H
+Gana;H

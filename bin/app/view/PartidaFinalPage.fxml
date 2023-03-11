@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="854.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.PartidaFinalPage">
+   <children>
+      <Separator layoutX="8.0" layoutY="26.0" prefHeight="1.0" prefWidth="838.0" />
+      <HBox alignment="CENTER" layoutX="421.0" layoutY="473.0" prefHeight="62.0" prefWidth="412.0" spacing="30.0">
+         <children>
+            <Button fx:id="btnCadastrarFinal" mnemonicParsing="false" onAction="#btnCadastrarFinalAction" prefHeight="46.0" prefWidth="162.0" style="-fx-background-radius: 50; -fx-background-color: #b3dfb2;" text="Cadastrar Partidas">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnExcFinal" mnemonicParsing="false" onAction="#btnExcFinalAction" prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: E58787; -fx-border-radius: 50; -fx-background-radius: 50; -fx-border-color: #919191;" text="Excluir Partidas">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="16.0" layoutY="56.0" prefHeight="174.0" prefWidth="823.0" spacing="10.0" style="-fx-border-radius: 40; -fx-border-width: 2; -fx-border-color: #000000;">
+         <children>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="168.0" prefWidth="80.0" spacing="18.0">
+               <children>
+                  <Label text="Data:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Horário:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Local:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets left="5.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="15.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="156.0" prefWidth="258.0" spacing="15.0">
+               <children>
+                  <DatePicker fx:id="datePickerPartF" editable="false" />
+                  <TextField fx:id="horaPartidaF" prefHeight="31.0" prefWidth="182.0" promptText="hh:mm" style="-fx-border-radius: 50; -fx-background-radius: 50;" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="localPartidaF" prefHeight="31.0" prefWidth="183.0" style="-fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="40.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="15.0" right="5.0" />
+               </padding>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <HBox fx:id="box1Gols" alignment="TOP_CENTER" onMouseMoved="#HBoxMove1" prefHeight="156.0" prefWidth="420.0" spacing="10.0">
+               <children>
+                  <Label text="Placar da Partida:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboGolsFinal1" prefHeight="35.0" prefWidth="64.0" style="-fx-background-radius: 50; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-color: ffffff;" />
+                  <Label text="x" textFill="#797979">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboGolsFinal2" prefHeight="35.0" prefWidth="64.0" style="-fx-background-radius: 50; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-color: ffffff;" />
+               </children>
+               <padding>
+                  <Insets top="50.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <Button fx:id="btnReturn" layoutX="52.0" layoutY="481.0" mnemonicParsing="false" onAction="#btnReturnAction" prefHeight="46.0" prefWidth="107.0" style="-fx-background-radius: 50;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <HBox alignment="CENTER" layoutX="395.0" layoutY="161.0" prefHeight="40.0" prefWidth="440.0" spacing="5.0" style="-fx-border-radius: 50;">
+         <children>
+            <Label text="GANHADOR DA PARTIDA:">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="choiceGanhadorFinal" prefHeight="27.0" prefWidth="210.0" style="-fx-background-radius: 50; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-color: ffffff;" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="381.0" layoutY="9.0" prefHeight="35.0" prefWidth="79.0" text="FINAL">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelFinalT1" alignment="CENTER" layoutX="153.0" layoutY="42.0" prefHeight="30.0" prefWidth="218.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelFinalT2" alignment="CENTER" layoutX="471.0" layoutY="42.0" prefHeight="30.0" prefWidth="218.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="27.0" text="x" textFill="#797979">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="604.0" layoutY="91.0" text="GOLS TIME 1:" />
+      <Label alignment="TOP_LEFT" layoutX="703.0" layoutY="91.0" text="GOLS TIME 2:" />
+      <HBox alignment="CENTER" layoutX="19.0" layoutY="289.0" prefHeight="174.0" prefWidth="823.0" spacing="10.0" style="-fx-border-radius: 40; -fx-border-color: #000000;">
+         <children>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="168.0" prefWidth="72.0" spacing="18.0">
+               <children>
+                  <Label text="Data:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Horário:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Local:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <opaqueInsets>
+                  <Insets left="5.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="BOTTOM_LEFT" prefHeight="168.0" prefWidth="258.0" spacing="15.0">
+               <children>
+                  <DatePicker fx:id="datePickerPart3" editable="false" />
+                  <TextField fx:id="horaPartida3" prefHeight="31.0" prefWidth="182.0" promptText="hh:mm" style="-fx-border-radius: 50; -fx-background-radius: 50;" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="localPartida3" prefHeight="31.0" prefWidth="183.0" style="-fx-border-radius: 50; -fx-background-radius: 50;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="40.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="5.0" right="5.0" />
+               </padding>
+            </VBox>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <HBox fx:id="box2Gols" alignment="TOP_CENTER" onMouseMoved="#HBoxMove2" prefHeight="157.0" prefWidth="419.0" spacing="10.0">
+               <children>
+                  <Label text="Placar da Partida:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboGolsTerc1" prefHeight="35.0" prefWidth="64.0" style="-fx-background-radius: 50; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-color: ffffff;" />
+                  <Label text="x" textFill="#797979">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboGolsTerc2" prefHeight="35.0" prefWidth="64.0" style="-fx-background-radius: 50; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-color: ffffff;" />
+               </children>
+               <padding>
+                  <Insets top="50.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="5.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <Label fx:id="labelTercT1" alignment="CENTER" layoutX="156.0" layoutY="275.0" prefHeight="30.0" prefWidth="218.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelTercT2" alignment="CENTER" layoutX="474.0" layoutY="275.0" prefHeight="30.0" prefWidth="218.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="414.0" layoutY="260.0" text="x" textFill="#797979">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Separator layoutX="8.0" layoutY="255.0" prefHeight="1.0" prefWidth="838.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="273.0" layoutY="238.0" prefHeight="35.0" prefWidth="295.0" text="DECISÃO DO 3°LUGAR">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="608.0" layoutY="321.0" text="GOLS TIME 1:" />
+      <Label alignment="TOP_LEFT" layoutX="707.0" layoutY="321.0" text="GOLS TIME 2:" />
+      <HBox alignment="CENTER" layoutX="397.0" layoutY="397.0" prefHeight="40.0" prefWidth="440.0" spacing="5.0" style="-fx-border-radius: 50;">
+         <children>
+            <Label text="GANHADOR DA PARTIDA:">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="choiceGanhadorTerc" prefHeight="27.0" prefWidth="210.0" style="-fx-background-radius: 50; -fx-border-color: #000000; -fx-border-radius: 50; -fx-background-color: ffffff;" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </HBox>
+      <Label fx:id="labelMessage" alignment="CENTER" layoutX="164.0" layoutY="496.0" prefHeight="18.0" prefWidth="258.0" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

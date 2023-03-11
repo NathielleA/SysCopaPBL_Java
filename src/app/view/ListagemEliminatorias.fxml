@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="1343.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.ListagemEliminatorias">
+   <children>
+      <Button fx:id="btnReturn" layoutX="14.0" layoutY="503.0" mnemonicParsing="false" onAction="#btnReturnAction" prefHeight="37.0" prefWidth="78.0" style="-fx-background-radius: 50;" text="Voltar">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="486.0" prefWidth="198.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava1_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava1_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava3_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava3_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava2_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava2_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava4_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava4_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox layoutX="1130.0" layoutY="14.0" prefHeight="486.0" prefWidth="198.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava5_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava5_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava7_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava7_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava6_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava6_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="118.0" prefWidth="154.0" spacing="1.0">
+               <children>
+                  <Label fx:id="oitava8_time1" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="X">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="oitava8_time2" alignment="CENTER" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Label fx:id="semifinal1_time1" alignment="CENTER" layoutX="418.0" layoutY="121.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="semifinal2_time1" alignment="CENTER" layoutX="418.0" layoutY="362.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Line endX="-285.0" endY="39.19999694824219" layoutX="497.0" layoutY="30.0" startX="-307.4000244140625" startY="19.60000228881836" />
+      <Line endX="-295.0" endY="29.199996948242188" layoutX="507.0" layoutY="40.0" startX="-317.0" startY="56.40000915527344" />
+      <Label fx:id="quarta1_time2" alignment="CENTER" layoutX="212.0" layoutY="178.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="quarta3_time1" alignment="CENTER" layoutX="212.0" layoutY="296.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="quarta3_time2" alignment="CENTER" layoutX="212.0" layoutY="413.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="quarta1_time1" alignment="CENTER" layoutX="212.0" layoutY="54.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Line endX="-304.5999755859375" endY="142.8000030517578" layoutX="517.0" layoutY="50.0" startX="-328.20001220703125" startY="117.19999694824219" />
+      <Line endX="-303.89288330078125" endY="143.5071258544922" layoutX="517.0" layoutY="50.0" startX="-327.4000244140625" startY="163.59999084472656" />
+      <Line endX="-304.5999755859375" endY="261.1999816894531" layoutX="517.0" layoutY="50.0" startX="-326.5999755859375" startY="239.5999755859375" />
+      <Line endX="-303.89288330078125" endY="261.9070739746094" layoutX="517.0" layoutY="50.0" startX="-328.20001220703125" startY="285.1999816894531" />
+      <Line endX="-304.5999755859375" endY="378.0" layoutX="517.0" layoutY="50.0" startX="-328.20001220703125" startY="354.79998779296875" />
+      <Line endX="-303.89288330078125" endY="378.70709228515625" layoutX="517.0" layoutY="50.0" startX="-326.5999755859375" startY="400.39996337890625" />
+      <Line endX="-99.492919921875" endY="86.00001525878906" layoutX="517.0" layoutY="50.0" startX="-149.79998779296875" startY="20.400009155273438" />
+      <Line endX="-98.78582763671875" endY="86.70713806152344" layoutX="517.0" layoutY="50.0" startX="-150.5999755859375" startY="144.40000915527344" />
+      <Line endX="-99.492919921875" endY="86.00001525878906" layoutX="516.0" layoutY="291.0" startX="-149.79998779296875" startY="20.400009155273438" />
+      <Line endX="-98.78582763671875" endY="86.70713806152344" layoutX="516.0" layoutY="291.0" startX="-150.5999755859375" startY="144.40000915527344" />
+      <Label fx:id="quarta2_time2" alignment="CENTER" layoutX="960.0" layoutY="180.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="quarta4_time1" alignment="CENTER" layoutX="960.0" layoutY="298.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="quarta4_time2" alignment="CENTER" layoutX="960.0" layoutY="415.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="quarta2_time1" alignment="CENTER" layoutX="960.0" layoutY="56.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Line endX="447.4000244140625" endY="-10.39999771118164" layoutX="705.0" layoutY="60.0" startX="408.5999755859375" startY="11.199996948242188" />
+      <Line endX="439.0" endY="26.800003051757812" layoutX="715.0" layoutY="70.0" startX="397.89288330078125" startY="1.9071044921875" />
+      <Line endX="447.4000244140625" endY="-10.39999771118164" layoutX="704.0" layoutY="182.0" startX="408.5999755859375" startY="11.199996948242188" />
+      <Line endX="439.0" endY="26.800003051757812" layoutX="714.0" layoutY="192.0" startX="397.89288330078125" startY="1.9071044921875" />
+      <Line endX="447.4000244140625" endY="-10.39999771118164" layoutX="705.0" layoutY="300.0" startX="408.5999755859375" startY="11.199996948242188" />
+      <Line endX="439.0" endY="26.800003051757812" layoutX="715.0" layoutY="310.0" startX="397.89288330078125" startY="1.9071044921875" />
+      <Line endX="447.4000244140625" endY="-10.39999771118164" layoutX="706.0" layoutY="417.0" startX="408.5999755859375" startY="11.199996948242188" />
+      <Line endX="439.0" endY="26.800003051757812" layoutX="716.0" layoutY="427.0" startX="397.89288330078125" startY="1.9071044921875" />
+      <Label fx:id="semifinal1_time2" alignment="CENTER" layoutX="744.0" layoutY="119.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="semifinal2_time2" alignment="CENTER" layoutX="744.0" layoutY="362.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Line endX="256.20001220703125" endY="14.400009155273438" layoutX="705.0" layoutY="60.0" startX="193.800048828125" startY="73.59999084472656" />
+      <Line endX="245.0" endY="125.19999694824219" layoutX="715.0" layoutY="70.0" startX="183.800048828125" startY="63.59999084472656" />
+      <Line endX="256.20001220703125" endY="14.400009155273438" layoutX="705.0" layoutY="302.0" startX="193.800048828125" startY="73.59999084472656" />
+      <Line endX="245.0" endY="125.19999694824219" layoutX="715.0" layoutY="312.0" startX="183.800048828125" startY="63.59999084472656" />
+      <Line endX="-61.0" endY="124.00001525878906" layoutX="725.0" layoutY="80.0" startX="-60.79998779296875" startY="65.59999084472656" />
+      <Line endX="346.79998779296875" endY="55.19999694824219" layoutX="398.0" layoutY="81.0" startX="173.60003662109375" startY="55.19999694824219" />
+      <Label fx:id="final_time1" alignment="CENTER" layoutX="588.0" layoutY="204.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="10.0" text="OITAVAS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="571.0" layoutY="249.0" text="FINAL">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="23.0" text="QUARTAS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="461.0" layoutY="77.0" text="SEMIFINAL">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="789.0" layoutY="75.0" text="SEMIFINAL">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1008.0" layoutY="23.0" text="QUARTAS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1203.0" layoutY="11.0" text="OITAVAS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Line endX="334.4000244140625" endY="286.20001220703125" layoutX="408.0" layoutY="91.0" startX="163.60003662109375" startY="286.20001220703125" />
+      <Line endX="260.20001220703125" endY="276.0" layoutX="405.0" layoutY="91.0" startX="259.20001220703125" startY="224.39999389648438" />
+      <Label fx:id="final_time2" alignment="CENTER" layoutX="588.0" layoutY="285.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="659.0" layoutY="124.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="660.0" layoutY="367.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="659.0" layoutY="247.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="122.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="364.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1031.0" layoutY="122.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1031.0" layoutY="364.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="terceiroLugar_time1" alignment="CENTER" layoutX="511.0" layoutY="485.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="terceiroLugar_time2" alignment="CENTER" layoutX="688.0" layoutY="485.0" prefHeight="30.0" prefWidth="153.0" style="-fx-border-color: #9e9e9e; -fx-border-radius: 50; -fx-background-color: ffffff;" textFill="#9e9e9e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="671.0" layoutY="489.0" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="455.0" text="Decisão do 3°lugar">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
